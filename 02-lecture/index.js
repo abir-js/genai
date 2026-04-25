@@ -11,7 +11,7 @@ const ai = new GoogleGenAI({
 async function main() {
   const response = await ai.models.generateContent({
     model: "gemini-3-flash-preview",
-    contents: "What is array in data structure?",
+    contents: "count to 10 starting from 11",
   });
   console.log(response.text);
 }
