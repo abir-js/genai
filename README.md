@@ -1,1 +1,1 @@
-# strike-genai
+# genai
